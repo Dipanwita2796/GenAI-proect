@@ -61,8 +61,7 @@ class PDFVectorStore:
         print(f"Time taken to retrieve data: {end_time - start_time:.6f} seconds")
 
 
-#AZURE_AI_SEARCH_SERVICE_NAME = "https://ikegai-ai-search.search.windows.net"
-#AZURE_AI_SEARCH_API_KEY = "2VkJo7jqIJ9aehJ38ZNmPQlYNa34yDxyZq2lJevLYWAzSeBvYB7Z"
+
 INDEX_NAME = "langchain-vector-demo"
 EMBEDDING_MODEL = "mixedbread-ai/mxbai-embed-large-v1"
 PDF_PATH = "Dipanwita Ghosh_WORD_RESUME_final_mlops.pdf"
