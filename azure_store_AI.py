@@ -5,9 +5,9 @@ from langchain.document_loaders import PDFPlumberLoader
 from langchain.text_splitter import CharacterTextSplitter
 import time
 
-AZURE_AI_SEARCH_SERVICE_NAME="https://ikegai-ai-search.search.windows.net"
+#AZURE_AI_SEARCH_SERVICE_NAME="https://ikegai-ai-search.search.windows.net"
 #SAZURE_AI_SEARCH_INDEX_NAME="sample_vectore_index"
-AZURE_AI_SEARCH_API_KEY="2VkJo7jqIJ9aehJ38ZNmPQlYNa34yDxyZq2lJevLYWAzSeBvYB7Z"
+#AZURE_AI_SEARCH_API_KEY="2VkJo7jqIJ9aehJ38ZNmPQlYNa34yDxyZq2lJevLYWAzSeBvYB7Z"
 
 
 # Define the embeddings model class
